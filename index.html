@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Teste de Programação</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#roman">Conversor de nº Romano</a></li>
+                <li><a href="#life">Jogo da Vida</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="roman">
+            <div class="roman-container">
+                <div class="up-r-c">
+                    <input class="input roman-input" type="text" placeholder="Digite um número romano">
+                    <button class="bt roman-bt">Converter para inteiro</button>
+                </div>
+                <div class="bot-r-c">
+                    <input class="input int-input" maxlength="4" type="number" placeholder="Digite um número">
+                    <button class="bt int-bt">Converter para romano</button>
+                </div>
+            </div>
+        </section>
+        <section id="life">
+            <div class="life-container">
+                <table id="field"></table>
+                <div class="bt-container">
+                    <button class="bt next">Próxima geração</button>
+                    <button class="bt reload">Recarregar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
