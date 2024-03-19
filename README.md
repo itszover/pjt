@@ -1,1 +1,1 @@
-# [GitHub Pages](https://only-zover.github.io/pjt/)
+# [GitHub Pages](https://itszover.github.io/pjt/)
